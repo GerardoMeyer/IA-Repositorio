@@ -1,0 +1,117 @@
+/* Header */
+#containerHeader {
+    background-image: linear-gradient(135deg, #ff0844 10%, #ffb199 100%);
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgHeader {
+    width: 140%;
+}
+
+.header {
+    margin: auto 40%;
+    text-align: center;
+    padding: 8% 0%;
+}
+
+/* Pokedex */
+#containerContenido {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imgAsh {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgAsh {
+        margin-left: 0%
+    }
+}
+
+.imgContenido {
+    width: 40%;
+    margin-left: 55%;
+}
+
+
+.contenido {
+
+
+    padding: 10% 50%;
+}
+
+.containerCards {
+    display: flex;
+}
+
+.containerCards h4 {
+    text-align: center;
+    padding: 3%;
+}
+
+.containerCards .card-container-new {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    background: #F09819;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 2% 2%;
+    margin: 2% 2%;
+}
+
+@media only screen and (max-width: 800px) {
+    .containerCards .card-container-new {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
+
+
+.containerCards .card-description {
+    padding-top: 15%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+
+/*Footer*/
+#footer {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(231, 226, 229) 0%, rgba(152, 148, 233, 1) 100%);
+    font-family: 'Oswald', sans-serif;
+    padding-left: 15%;
+}
+
+.columna-abajo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.columna-abajo2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.columna-abajo3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
